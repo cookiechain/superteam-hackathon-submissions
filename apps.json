@@ -32,5 +32,51 @@
         "github": "https://github.com/fibanachos"
       }
     ]
+  },
+  {
+    "id": "crumbs",
+    "title": "Crumbs",
+    "shortDescription": "The utility app for Cookie Chain: holder snapshots, airdrops, wallet cleanup, swaps by link, and a clicker that mints CRUMB.",
+    "description": "Crumbs is an installable web app with the tools every token community on Cookie Chain ends up needing. Snapshot pulls every holder of a token from the Cookiescan DAS index, folded by wallet with pools and vaults flagged, and gives you a concentration bar, a sortable table, a CSV and a share card. Airdrop sends COOK or any SPL or Token-2022 token to that snapshot or to a pasted list, same amount for everyone or pro-rata, packed into as few transactions as fit, with missing token accounts created, one wallet prompt, and live confirmations with Cookiescan links. Cleanup revokes delegates and closes empty token accounts so the rent comes back. Swap by link packs a two-sided token trade into one transaction against a durable nonce, so two wallets can trade with no escrow and no pool. Crumb Clicker is an idle clicker where every click is a Cookie Chain transaction, signed by a browser session key after one wallet approval; each UTC day's totals settle on chain and split a fixed pool of CRUMB, the app's proof-of-play token, minted only through the emission program with a hard cap and supply-triggered halvings. Two Anchor programs deployed on Cookie Chain mainnet run the game and the mint: crumb_clicker 7aPZt6exe1H2A1fnSqV2kV2ZHpgQWtKe4LYEXv1x3Lqi and crumb_emission C8NRjLU9ajS5okBSbDhMBXsF2naVGm82y6g3hdefTQcY. Nothing runs on a backend: reads come from rpc.cookiescan.io and api.cookiescan.io, and every write is a transaction the user's Nightly wallet signs.",
+    "category": "Tooling",
+    "tags": [
+      "Tooling",
+      "Airdrop",
+      "Snapshot",
+      "Swap",
+      "Gaming",
+      "Token",
+      "PWA",
+      "Nightly"
+    ],
+    "links": {
+      "website": "https://crumbs-cookie.vercel.app/",
+      "demo": "https://wolfurx.github.io/crumbs/",
+      "github": "https://github.com/WolfurX/crumbs",
+      "x": "https://x.com/0xWolfur/status/2096138792583520283",
+      "docs": "https://github.com/WolfurX/crumbs/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/crumbs.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/01-home.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/02-snapshot.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/03-airdrop.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/04-cleanup.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/05-swap.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/06-clicker.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/07-crumb.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Rizki",
+        "role": "Developer",
+        "x": "https://x.com/0xWolfur",
+        "github": "https://github.com/WolfurX"
+      }
+    ]
   }
 ]
