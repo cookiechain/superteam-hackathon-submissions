@@ -32,5 +32,46 @@
         "github": "https://github.com/fibanachos"
       }
     ]
+  },
+  {
+    "id": "cook-terminal",
+    "title": "COOK Terminal",
+    "shortDescription": "A live terminal for Cookie Chain: network stats, tokens, wallets and on-chain transfers.",
+    "description": "COOK Terminal is a read-only explorer and dashboard for Cookie Chain that runs entirely in the browser. The network page reports live slot, block time, TPS and epoch progress measured from real getBlockTime deltas, plus supply and validator stats. The tokens page lists SPL tokens with supply, decimals and holder counts read straight from the RPC, and each token has a detail page with on-chain transfer history via getSignaturesForAddress. The wallet inspector shows native balance, token holdings and recent transactions for any address. There is no backend and no API key: the app talks directly to the Cookie Chain public RPC at https://rpc.cookiescan.io, so every number on screen is live mainnet state.",
+    "category": "Tooling",
+    "tags": [
+      "Tooling",
+      "Explorer",
+      "Analytics",
+      "Dashboard",
+      "Solana",
+      "Cookie Chain"
+    ],
+    "links": {
+      "website": "https://am5188.github.io/cook-terminal/",
+      "demo": "https://am5188.github.io/cook-terminal/",
+      "github": "https://github.com/am5188/cook-terminal",
+      "x": "https://x.com/esan7_m",
+      "docs": "https://github.com/am5188/cook-terminal/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cook-terminal.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cook-terminal/01-network.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cook-terminal/02-tokens.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cook-terminal/03-wallet.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cook-terminal/04-token-detail.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "AM",
+        "role": "Developer",
+        "x": "https://x.com/esan7_m",
+        "github": "https://github.com/am5188"
+      }
+    ]
   }
 ]
