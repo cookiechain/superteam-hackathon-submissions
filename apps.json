@@ -32,5 +32,44 @@
         "github": "https://github.com/fibanachos"
       }
     ]
+  },
+  {
+    "id": "crumbs-portfolio",
+    "title": "Crumbs Portfolio",
+    "shortDescription": "The Cookie Chain positions your wallet cannot show you, and the fees they left behind.",
+    "description": "Crumbs is a portfolio view for Cookie Chain. Wallets list SPL balances and stop there, so a DAMM v2 liquidity position is invisible to them: it has no owner field at all, and ownership is a bearer NFT. Fees keep accruing to positions people have already withdrawn from. Crumbs reads every token account across SPL and Token-2022, aggregates per mint in bigint, derives each DAMM v2 position from the position NFTs a wallet already holds, and surfaces the unclaimed fees on each one with a claim action that simulates before it asks for a signature. It also decodes MomoSwap launchpad curve positions, which are program-tracked shares rather than SPL tokens, resolves .cook names in both directions, and ranks holdings by value. Everything is a public read, so any address or .cook name can be inspected without connecting a wallet.",
+    "category": "DeFi",
+    "tags": [
+      "DeFi",
+      "Portfolio",
+      "Liquidity",
+      "Analytics",
+      "Tooling"
+    ],
+    "links": {
+      "website": "https://crumbs-tau-nine.vercel.app",
+      "demo": null,
+      "github": "https://github.com/paulandrew12/crumbs",
+      "x": null,
+      "docs": "https://github.com/paulandrew12/crumbs#readme",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/crumbs-portfolio.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs-portfolio/01-portfolio.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs-portfolio/02-cook-name.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs-portfolio/03-empty.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "paulandrew12",
+        "role": "Developer",
+        "x": null,
+        "github": "https://github.com/paulandrew12"
+      }
+    ]
   }
 ]
