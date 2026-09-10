@@ -32,5 +32,46 @@
         "github": "https://github.com/fibanachos"
       }
     ]
+  },
+  {
+    "id": "cookiepad",
+    "title": "Cookiepad",
+    "shortDescription": "One-click token launchpad with live chain analytics on Cookie Chain — 100% client-side.",
+    "description": "Cookiepad is a fully client-side dApp for Cookie Chain: launch a new SPL token with complete Metaplex metadata (name, symbol, supply, royalty, creator share) in a single signed transaction — the createMetadataV1 instruction is encoded by hand with no SDK lock-in. A live dashboard streams slot / epoch / TPS curve, active accounts and DBC pool accounts straight from the public RPC (rpc.cookiescan.io). My Tokens decodes every ATA in your wallet and reads on-chain Metaplex metadata client-side; Send COOK does native transfers. Stack: React 18 + Vite + Tailwind + Recharts + @solana/web3.js + @solana/spl-token. Wallets: Nightly, Phantom, Backpack, Solflare, Coinbase. Zero servers, zero API keys — hosted on GitHub Pages.",
+    "category": "DeFi",
+    "tags": [
+      "Token Launch",
+      "Launchpad",
+      "DeFi",
+      "dApp",
+      "Metaplex",
+      "Client-side"
+    ],
+    "links": {
+      "website": "https://zhangb06.github.io/cookiepad/",
+      "demo": "https://zhangb06.github.io/cookiepad/",
+      "github": "https://github.com/zhangb06/cookiepad",
+      "x": null,
+      "docs": "https://github.com/zhangb06/cookiepad/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiepad.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepad/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepad/00-home.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepad/01-chain-live.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepad/02-my-tokens.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepad/03-send-cook.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "zhangb06",
+        "role": "Developer",
+        "x": null,
+        "github": "https://github.com/zhangb06"
+      }
+    ]
   }
 ]
