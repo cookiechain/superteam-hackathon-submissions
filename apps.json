@@ -79,5 +79,45 @@
         "github": "https://github.com/WolfurX"
       }
     ]
+  },
+  {
+    "id": "cookie-tab",
+    "title": "Cookie Tab",
+    "shortDescription": "Payment links and tip jars on Cookie Chain, with no server: the request rides in the link and the receipt is the chain itself.",
+    "description": "Cookie Tab makes payment links and tip jars on Cookie Chain. A creator or merchant picks a recipient (an address or a .cook name), a token, and an amount (fixed in the token, fixed in US dollars, or open for a tip jar) and gets a URL and a QR code. Whoever opens the link connects a wallet and pays from it, straight to the recipient; Cookie Tab holds no keys and takes no fee. There is no backend: the request is base64url-encoded into the URL fragment, which never reaches a server. Every payment is one Cookie Chain transaction (SystemProgram.transfer for native COOK, TransferChecked with an idempotent associated-account create for SPL and Token-2022 tokens) plus an SPL Memo tagged cookiejar:1, and a public jar page rebuilds the recipient's history from chain data alone by reading getSignaturesForAddress over the wallet and its token accounts and the transactions' own balance deltas. .cook names resolve with a single PDA read against the CookOven registry program, and a name listed for sale on the marketplace is refused rather than paid into escrow. Dollar-priced requests convert at the Cookiescan price when the payer opens the link. A payer holding the wrong token gets quotes from both the Cookiebox and Candy Shop aggregators, the better route is built by its router, simulated and checked locally (signer, fee payer, every balance the wallet holds), and signed by the payer's own wallet as a separate transaction. 89 unit and render tests run with no network; 19 live checks run against the real chain and ecosystem APIs with no key and no funds.",
+    "category": "Tooling",
+    "tags": [
+      "Payments",
+      "Tip jar",
+      "Payment links",
+      "Names",
+      "Swap",
+      "Tooling"
+    ],
+    "links": {
+      "website": "https://cookie-tab.pages.dev",
+      "demo": "https://cookie-tab.pages.dev/#/jar/5ZJsQcVGMqBbuiSQjRT1dBntDp3x8YbfWf359mPdEGwA",
+      "github": "https://github.com/TheBenMeadows/cookie-tab",
+      "x": "https://x.com/TheBenMeadows/status/2098777978549436477",
+      "docs": "https://github.com/TheBenMeadows/cookie-tab/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-tab.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-tab/01-create.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-tab/02-pay.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-tab/03-jar.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Ben Meadows",
+        "role": "Developer",
+        "x": "https://x.com/TheBenMeadows",
+        "github": "https://github.com/TheBenMeadows"
+      }
+    ]
   }
 ]
