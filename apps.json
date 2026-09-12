@@ -79,5 +79,44 @@
         "github": "https://github.com/WolfurX"
       }
     ]
+  },
+  {
+    "id": "cookie-payouts",
+    "title": "Cookie Payouts",
+    "shortDescription": "Pay an airdrop or a contributor list in one approval, and share a receipt that re-reads itself from Cookie Chain instead of asking anyone to trust a screenshot.",
+    "description": "Cookie Payouts sends native COOK to a list of addresses in as few transactions as the packet limit allows, signed in a single approval, and produces a receipt link that carries only transaction signatures. Whoever opens that link re-reads those transactions from rpc.cookiescan.io in their own browser, so there is no server holding a copy of the numbers the publisher could have edited. The receipt is allowed to come back negative: a signature that is not on chain reads \"not found\", and a transaction that confirmed without moving any COOK says so in as many words. On Cookie Chain specifically, the app checks getGenesisHash on load so it cannot be pointed at the wrong network, and it asks the wallet only to sign while submitting the signed bytes to Cookie Chain itself — wallets that broadcast through their own RPC would send the transaction to Solana, where it never lands.",
+    "category": "Tooling",
+    "tags": [
+      "Payments",
+      "Payouts",
+      "Tooling",
+      "Verification",
+      "Nightly"
+    ],
+    "links": {
+      "website": "https://eazyhood.github.io/cookie-payouts/",
+      "demo": null,
+      "github": "https://github.com/EazyHood/cookie-payouts",
+      "x": null,
+      "docs": "https://github.com/EazyHood/cookie-payouts/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-payouts.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-payouts/01-attestation.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-payouts/02-payout.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-payouts/03-receipt-can-say-no.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "EazyHood",
+        "role": "Developer",
+        "x": "https://x.com/del_mejia95726",
+        "github": "https://github.com/EazyHood"
+      }
+    ]
   }
 ]
