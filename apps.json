@@ -81,3 +81,36 @@
     ]
   }
 ]
+,
+{
+  "id": "secnode",
+  "title": "SecNode — Cookie Chain Network Intelligence",
+  "shortDescription": "Real-time Cookie Chain network stats with one-click on-chain interaction.",
+  "description": "SecNode is a live network intelligence dashboard for Cookie Chain. It streams real JSON-RPC data — current slot, TPS (30-sample avg), epoch, block height, and RPC latency — straight from rpc.cookiescan.io into an auto-refreshing dashboard with a live TPS chart. Its On-Chain Pulse lets anyone with a Nightly wallet send a real SPL Memo transaction to Cookie Chain and watch the full lifecycle (signing → sent → confirmed) in real time, demonstrating sub-second finality, near-zero fees, and full Solana tooling compatibility. Deployed via Cloudflare Tunnel and systemd on a VPS.",
+  "category": "Tooling",
+  "tags": ["Tooling", "Analytics", "Dashboard", "SVM", "Explorer"],
+  "links": {
+    "website": "https://secnode.bond",
+    "demo": "https://secnode.bond",
+    "github": "https://github.com/oxatik/secnode",
+    "x": null,
+    "docs": "https://github.com/oxatik/secnode/blob/main/README.md",
+    "video": null
+  },
+  "media": {
+    "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/secnode.png",
+    "banner": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/secnode/01-dashboard.png",
+      "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/secnode/02-pulse-confirmed.png"
+    ]
+  },
+  "team": [
+    {
+      "name": "oxatik",
+      "role": "Developer",
+      "x": null,
+      "github": "https://github.com/oxatik"
+    }
+  ]
+}
