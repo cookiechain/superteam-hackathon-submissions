@@ -81,6 +81,46 @@
     ]
   },
   {
+    "id": "sprinkle",
+    "title": "Sprinkle",
+    "shortDescription": "Payment links, tip jars and a receipts dashboard on Cookie Chain. No backend, wallet-native, .cook names supported.",
+    "description": "Sprinkle lets anyone get paid on Cookie Chain with a link or QR code. The creator picks a recipient (an address or a .cook name), COOK or any registry token, an optional amount, a label and a message; the whole request is encoded in the URL so links never expire and nothing is stored anywhere. The payer opens the link, connects Nightly, sees their balance and USD estimate, and pays: a SystemProgram transfer for COOK or an idempotent ATA create plus transferChecked for SPL and Token-2022, always with a sprinkle:v1:<label> memo. The transaction is simulated first for readable errors, signed by the wallet, broadcast by the page to rpc.cookiescan.io and confirmed with live stage updates and an explorer link. The Received tab reads any address's history straight from the chain, extracts incoming transfers, groups Sprinkle payments by label, totals them in USD via Cookiescan prices and charts them per day. .cook names are resolved on-chain at payment time through the cookie_domains program, so a payment follows the name; names sitting in the marketplace escrow are refused rather than paid into a program account.",
+    "category": "Tooling",
+    "tags": [
+      "Payments",
+      "Tipping",
+      "Creator tools",
+      "Tooling",
+      ".cook names",
+      "Public goods"
+    ],
+    "links": {
+      "website": "https://sprinkle-ten.vercel.app",
+      "demo": "https://sprinkle-ten.vercel.app/pay?to=meme.cook&amt=1&label=demo",
+      "github": "https://github.com/ys317/sprinkle",
+      "x": "https://x.com/VongLamqfeg/status/2098370526393913435",
+      "docs": "https://github.com/ys317/sprinkle/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/sprinkle.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/sprinkle/01-create-link.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/sprinkle/02-pay.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/sprinkle/03-received.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "ys317",
+        "role": "Developer",
+        "x": "https://x.com/VongLamqfeg",
+        "github": "https://github.com/ys317"
+      }
+    ]
+  },
+  {
     "id": "cookie-tab",
     "title": "Cookie Tab",
     "shortDescription": "Payment links and tip jars on Cookie Chain, with no server: the request rides in the link and the receipt is the chain itself.",
