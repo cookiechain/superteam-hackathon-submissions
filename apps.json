@@ -161,5 +161,55 @@
         "github": "https://github.com/TheBenMeadows"
       }
     ]
+  },
+  {
+    "id": "cookiebot",
+    "title": "CookieBot",
+    "shortDescription": "Cookie Chain in Telegram: live wallet alerts, price alerts and COOK tips that confirm themselves in the chat, plus a Nightly app to send and swap.",
+    "description": "CookieBot brings Cookie Chain into Telegram, where its community already talks. The bot watches any wallet or .cook name over the Cookie Chain RPC WebSocket (logsSubscribe, backed by polling) and posts every transfer, swap or failed transaction within seconds, decoded into COOK and SPL/Token-2022 balance changes with USD values from the Cookiescan API and the counterparty. In a group, /tip as a reply or by @username posts a tip card with a Pay with Nightly button; the payment carries a unique SPL Memo, the bot matches it on chain and edits the same message to paid with the Cookiescan receipt, and a tip link opened twice refuses to pay again. The companion web app does everything that needs a signature in Nightly: it switches the wallet to Cookie Chain and verifies the network before every signature, sends COOK to an address or a .cook name resolved from the CookOven cookie_domains program, swaps through the Cookiebox aggregator with a live quote, and prints a ticket for each transaction through build, sign, broadcast and confirm. One-time price alerts are set in two taps, market and portfolio cards refresh in place, and inline mode shares price cards in any chat. Tested end to end on mainnet: bridge in, send with memo, tip paid from Telegram, swap 1,000 COOK to 759 bCOOK.",
+    "category": "Social",
+    "tags": [
+      "Telegram",
+      "Bot",
+      "Alerts",
+      "Tips",
+      "Payments",
+      "Swap",
+      "Nightly",
+      "Wallet"
+    ],
+    "links": {
+      "website": "https://ushure.github.io/cookiebot/",
+      "demo": "https://t.me/cookiechain_bot",
+      "github": "https://github.com/uShure/cookiebot",
+      "x": "https://x.com/moguchever/status/2099146003085701317",
+      "docs": "https://github.com/uShure/cookiebot/blob/main/README.md",
+      "video": "https://x.com/moguchever/status/2099146003085701317"
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiebot.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/01-hero.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/02-send-ticket.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/03-swap-quote.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/04-shelf.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/05-web-tip-from-telegram.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/06-bot-menu.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/07-bot-price-market.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/08-bot-alert-presets.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/09-bot-alert-set.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/10-bot-tip-pending.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/11-bot-tip-paid-swapped.jpg"
+      ]
+    },
+    "team": [
+      {
+        "name": "Andrei M",
+        "role": "Developer",
+        "x": "https://x.com/moguchever",
+        "github": "https://github.com/uShure"
+      }
+    ]
   }
 ]
