@@ -161,5 +161,39 @@
         "github": "https://github.com/TheBenMeadows"
       }
     ]
+  },
+  {
+    "id": "cookie-jar",
+    "title": "Cookie Jar",
+    "shortDescription": "A community tip jar cApp: send COOK on-chain, crack open a fortune cookie, watch live analytics.",
+    "description": "Cookie Jar is a community tip jar for Cookie Chain. Connect a wallet (Nightly supported natively via the Wallet Standard), send COOK with an optional on-chain memo to a shared jar address, and get a fortune cookie message deterministically derived from your transaction signature the moment it confirms. Everything is read straight from the chain with no backend or indexer: a live activity feed decodes every tip and memo via getSignaturesForAddress/getParsedTransaction, and an analytics dashboard tracks jar balance, tip count, cumulative volume, and unique tippers with a live chart. Built with React, TypeScript, Vite, @solana/web3.js, and @solana/wallet-adapter-react pointed directly at Cookie Chain's RPC and websocket endpoints.",
+    "category": "Social",
+    "tags": [
+      "Social",
+      "DeFi",
+      "Wallet",
+      "Analytics"
+    ],
+    "links": {
+      "website": "https://cookie-jar-two.vercel.app",
+      "demo": "https://cookie-jar-two.vercel.app",
+      "github": "https://github.com/Robertbehrmannjr/cookie-jar",
+      "x": null,
+      "docs": "https://github.com/Robertbehrmannjr/cookie-jar/blob/master/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-jar.png",
+      "banner": null,
+      "screenshots": []
+    },
+    "team": [
+      {
+        "name": "Robert Behrmann",
+        "role": "Developer",
+        "x": null,
+        "github": "https://github.com/Robertbehrmannjr"
+      }
+    ]
   }
 ]
