@@ -161,5 +161,44 @@
         "github": "https://github.com/TheBenMeadows"
       }
     ]
+  },
+  {
+    "id": "cookiedash",
+    "title": "CookieDash",
+    "shortDescription": "Night Bakery hub & SVM telemetry portal with on-chain Fortune Oven inscriptions and  transfers.",
+    "description": "CookieDash is a culture-native analytics platform, asset vault, and on-chain interaction hub built specifically for Cookie Chain. Features include live RPC telemetry polling with dynamic TPS sparklines, on-chain Fortune Oven inscriptions utilizing the Solana Memo Program with sub-second finality, a  cashbox with real-time balance and gas validation, a continuous on-chain transaction audit tape, and an interactive Head Baker AI oracle compatible with cookie-mcp.",
+    "category": "Tooling",
+    "tags": [
+      "Tooling",
+      "DeFi",
+      "AI",
+      "Infrastructure",
+      "Analytics"
+    ],
+    "links": {
+      "website": "https://cookiedash-neon.vercel.app",
+      "demo": "https://cookiedash-neon.vercel.app",
+      "github": "https://github.com/waniyaro/cookiedash",
+      "x": null,
+      "docs": "https://github.com/waniyaro/cookiedash/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiedash.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiedash/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiedash/01-hero-fortune-oven.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiedash/02-cashbox-and-ledger.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiedash/03-telemetry-and-mcp.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "waniyaro",
+        "role": "Developer & Designer",
+        "x": null,
+        "github": "https://github.com/waniyaro"
+      }
+    ]
   }
 ]
