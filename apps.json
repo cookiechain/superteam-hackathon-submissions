@@ -1,86 +1,3 @@
-[
-  {
-    "id": "cookie-mcp",
-    "title": "Cookie MCP",
-    "shortDescription": "The onchain execution layer for AI agents on Cookie Chain.",
-    "description": "Cookie MCP is a Model Context Protocol server that enables AI agents to interact directly with Cookie Chain. Agents can execute swaps, launch tokens, provide liquidity, stake assets, bridge tokens, inspect balances, and interact with supported DeFi protocols through a unified interface.",
-    "category": "Infrastructure",
-    "tags": [
-      "AI",
-      "MCP",
-      "Infrastructure",
-      "DeFi"
-    ],
-    "links": {
-      "website": "https://cookiechain.wtf",
-      "demo": "https://cookiechain.wtf",
-      "github": "https://github.com/cookiechain/cookie-mcp",
-      "x": "https://x.com/TheCookieChain",
-      "docs": "https://github.com/cookiechain/cookie-mcp/blob/main/README.md",
-      "video": "https://raw.githubusercontent.com/cookiechain/cookie-mcp/main/docs/demo.gif"
-    },
-    "media": {
-      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-mcp.png",
-      "banner": "https://x.com/TheCookieChain/header_photo",
-      "screenshots": []
-    },
-    "team": [
-      {
-        "name": "Alex",
-        "role": "Developer",
-        "x": "https://x.com/fibanachos",
-        "github": "https://github.com/fibanachos"
-      }
-    ]
-  },
-  {
-    "id": "crumbs",
-    "title": "Crumbs",
-    "shortDescription": "The utility app for Cookie Chain: holder snapshots, airdrops, wallet cleanup, swaps by link, .cook names, and a clicker that mints CRUMB.",
-    "description": "Crumbs is an installable web app with the tools every token community on Cookie Chain ends up needing. Snapshot pulls every holder of a token from the Cookiescan DAS index, folded by wallet with pools and vaults flagged, and gives you a concentration bar, a sortable table, a CSV and a share card. Airdrop sends COOK or any SPL or Token-2022 token to that snapshot or to a pasted list, same amount for everyone or pro-rata, packed into as few transactions as fit, with missing token accounts created, one wallet prompt, and live confirmations with Cookiescan links. Cleanup revokes delegates and closes empty token accounts so the rent comes back. Swap by link packs a two-sided token trade into one transaction against a durable nonce, so two wallets can trade with no escrow and no pool. A .cook name works wherever Crumbs asks for a wallet (airdrop recipients, the swap counterparty), and wallets that set a primary name show it on the leaderboard, in holder tables and in the wallet button, read straight from the name service program. Crumb Clicker is an idle clicker where every click is a Cookie Chain transaction, signed by a browser session key after one wallet approval; each UTC day's totals settle on chain and split a fixed pool of CRUMB, the app's proof-of-play token, minted only through the emission program with a hard cap and supply-triggered halvings. Two Anchor programs deployed on Cookie Chain mainnet run the game and the mint: crumb_clicker 7aPZt6exe1H2A1fnSqV2kV2ZHpgQWtKe4LYEXv1x3Lqi and crumb_emission C8NRjLU9ajS5okBSbDhMBXsF2naVGm82y6g3hdefTQcY. Nothing runs on a backend: reads come from rpc.cookiescan.io and api.cookiescan.io, and every write is a transaction the user's Nightly wallet signs.",
-    "category": "Tooling",
-    "tags": [
-      "Tooling",
-      "Airdrop",
-      "Snapshot",
-      "Swap",
-      "Names",
-      "Gaming",
-      "Token",
-      "PWA",
-      "Nightly"
-    ],
-    "links": {
-      "website": "https://crumbs-cookie.vercel.app/",
-      "demo": null,
-      "github": "https://github.com/WolfurX/crumbs",
-      "x": "https://x.com/0xWolfur/status/2096138792583520283",
-      "docs": "https://github.com/WolfurX/crumbs/blob/main/README.md",
-      "video": null
-    },
-    "media": {
-      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/crumbs.png",
-      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/banner.png",
-      "screenshots": [
-        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/01-home.png",
-        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/02-snapshot.png",
-        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/03-airdrop.png",
-        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/04-cleanup.png",
-        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/05-swap.png",
-        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/06-clicker.png",
-        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/07-crumb.png"
-      ]
-    },
-    "team": [
-      {
-        "name": "Rizki",
-        "role": "Developer",
-        "x": "https://x.com/0xWolfur",
-        "github": "https://github.com/WolfurX"
-      }
-    ]
-  }
-]
 ,
 {
   "id": "secnode",
@@ -93,7 +10,7 @@
     "website": "https://secnode.bond",
     "demo": "https://secnode.bond",
     "github": "https://github.com/oxatik/secnode",
-    "x": null,
+    "x": "https://x.com/ATIKURR420",
     "docs": "https://github.com/oxatik/secnode/blob/main/README.md",
     "video": null
   },
@@ -109,7 +26,7 @@
     {
       "name": "oxatik",
       "role": "Developer",
-      "x": null,
+      "x": "https://x.com/ATIKURR420",
       "github": "https://github.com/oxatik"
     }
   ]
