@@ -213,5 +213,40 @@
         "github": "https://github.com/uShure"
       }
     ]
+  },
+  {
+    "id": "cookiepilot",
+    "title": "CookiePilot",
+    "shortDescription": "AI-native analytics + execution cockpit for Cookie Chain.",
+    "description": "CookiePilot makes the chain's headline property — sub-second finality — impossible to miss: the hero of the page is the live block time in milliseconds, read from validator performance samples, with a transaction stream showing every signature cementing processed → confirmed → finalized. A bitten caramel ring visualizes the share of circulating COOK bridged from Solana via Hyperlane, and every chart follows a strict honesty floor — direct labels, live units, exact prices, minimum-received and route printed before any swap. Behind the visuals it's a working product: wallet (Nightly-first plus any standard SVM wallet), SPL positions and NFTs via the official DAS API, memo pings and transfers with millisecond confirmation timelines, keyless multi-route swap quotes with optional non-custodial execution, and a deterministic natural-language console answering from live chain data with zero paid AI APIs. Fully demoable read-only with no wallet and no spend.",
+    "category": "Analytics",
+    "tags": [
+      "Analytics",
+      "Dashboard",
+      "AI",
+      "DeFi",
+      "Open Source"
+    ],
+    "links": {
+      "website": "https://cookiepilot.netlify.app",
+      "demo": "https://cookiepilot.netlify.app",
+      "github": "https://github.com/simongonzalezdc/cookiepilot",
+      "x": "https://x.com/KyaniteLabs_/status/2099344636292763852",
+      "docs": "https://github.com/simongonzalezdc/cookiepilot/blob/master/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiepilot.png",
+      "banner": null,
+      "screenshots": []
+    },
+    "team": [
+      {
+        "name": "Simon Gonzalez De Cruz",
+        "role": "Developer",
+        "x": "https://x.com/KyaniteLabs_",
+        "github": "https://github.com/simongonzalezdc"
+      }
+    ]
   }
 ]
