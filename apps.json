@@ -233,12 +233,15 @@
       "github": "https://github.com/simongonzalezdc/cookiepilot",
       "x": "https://x.com/KyaniteLabs_/status/2099344636292763852",
       "docs": "https://github.com/simongonzalezdc/cookiepilot/blob/master/README.md",
-      "video": null
+      "video": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepilot/demo-60s.mp4"
     },
     "media": {
       "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiepilot.png",
       "banner": null,
-      "screenshots": []
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepilot/hero-frame.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepilot/ring-frame.png"
+      ]
     },
     "team": [
       {
