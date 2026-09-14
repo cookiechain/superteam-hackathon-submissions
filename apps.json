@@ -294,5 +294,45 @@
         "github": "https://github.com/waniyaro"
       }
     ]
+  },
+  {
+    "id": "cookie-bakery",
+    "title": "Cookie Bakery",
+    "shortDescription": "Launch a Token-2022 mint, then run giveaways your audience signs up for — with a draw anyone can verify.",
+    "description": "Cookie Bakery does three things on Cookie Chain. It bakes a Token-2022 mint — metadata, your token account and the entire initial supply in a single transaction, with optional transfer fee, mint-close authority and authority revoke. It airdrops that token from a pasted list or a CSV of up to 1,000 rows, validating every row, merging duplicates, then sending batch by batch with simulation, pause and per-batch retry. And for creators it removes the CSV altogether: open a giveaway against one of your tokens, share a link, and your audience registers itself from a phone — free, no COOK, no gas, no wallet signature. Winners are drawn by commit-reveal. The creator's browser commits to a secret seed and writes that commitment on Cookie Chain as a memo transaction; the entropy then comes from the blockhash of a slot about a minute in the future, so knowing the seed early buys nothing. Commitment and result are both memo transactions on chain, and anyone can recompute the whole draw in their own browser at /e/<slug>/verify — against a second implementation of the shuffle, written independently of the one that runs the draw. The wallet only ever signs: every transaction is sent through Cookie Chain's own RPC rather than the wallet's, because Cookie Chain is not Solana mainnet and a wallet-side send would land on the wrong chain.",
+    "category": "Tooling",
+    "tags": [
+      "Token-2022",
+      "Airdrop",
+      "Creator",
+      "Giveaway",
+      "Social",
+      "Tooling"
+    ],
+    "links": {
+      "website": "https://cookie-bakery.elfrontendoficial.workers.dev",
+      "demo": null,
+      "github": "https://github.com/el-frontend/cookie-bakery",
+      "x": "https://x.com/cortes_chao",
+      "docs": "https://github.com/el-frontend/cookie-bakery/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-bakery.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-bakery/01-bake-a-token.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-bakery/02-airdrop-plan.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-bakery/03-oven-dashboard.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Carlos Chao",
+        "role": "Developer",
+        "x": "https://x.com/cortes_chao",
+        "github": "https://github.com/el-frontend"
+      }
+    ]
   }
 ]
