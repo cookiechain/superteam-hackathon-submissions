@@ -36,11 +36,12 @@
   {
     "id": "crumbs",
     "title": "Crumbs",
-    "shortDescription": "The utility app for Cookie Chain: holder snapshots, airdrops, wallet cleanup, swaps by link, .cook names, and a clicker that mints CRUMB.",
-    "description": "Crumbs is an installable web app with the tools every token community on Cookie Chain ends up needing. Snapshot pulls every holder of a token from the Cookiescan DAS index, folded by wallet with pools and vaults flagged, and gives you a concentration bar, a sortable table, a CSV and a share card. Airdrop sends COOK or any SPL or Token-2022 token to that snapshot or to a pasted list, same amount for everyone or pro-rata, packed into as few transactions as fit, with missing token accounts created, one wallet prompt, and live confirmations with Cookiescan links. Cleanup revokes delegates and closes empty token accounts so the rent comes back. Swap by link packs a two-sided token trade into one transaction against a durable nonce, so two wallets can trade with no escrow and no pool. A .cook name works wherever Crumbs asks for a wallet (airdrop recipients, the swap counterparty), and wallets that set a primary name show it on the leaderboard, in holder tables and in the wallet button, read straight from the name service program. Crumb Clicker is an idle clicker where every click is a Cookie Chain transaction, signed by a browser session key after one wallet approval; each UTC day's totals settle on chain and split a fixed pool of CRUMB, the app's proof-of-play token, minted only through the emission program with a hard cap and supply-triggered halvings. Two Anchor programs deployed on Cookie Chain mainnet run the game and the mint: crumb_clicker 7aPZt6exe1H2A1fnSqV2kV2ZHpgQWtKe4LYEXv1x3Lqi and crumb_emission C8NRjLU9ajS5okBSbDhMBXsF2naVGm82y6g3hdefTQcY. Nothing runs on a backend: reads come from rpc.cookiescan.io and api.cookiescan.io, and every write is a transaction the user's Nightly wallet signs.",
+    "shortDescription": "The utility app for Cookie Chain: holder snapshots, airdrops, NFT drops stored on chain, wallet cleanup, swaps by link, .cook names, and a clicker that mints CRUMB.",
+    "description": "Crumbs is an installable web app with the tools every token community on Cookie Chain ends up needing. Snapshot pulls every holder of a token from the Cookiescan DAS index, folded by wallet with pools and vaults flagged, and gives you a concentration bar, a sortable table, a CSV and a share card. Airdrop sends COOK or any SPL or Token-2022 token to that snapshot or to a pasted list, same amount for everyone or pro-rata, packed into as few transactions as fit, with missing token accounts created, one wallet prompt, and live confirmations with Cookiescan links. Cleanup revokes delegates and closes empty token accounts so the rent comes back. Swap by link packs a two-sided token trade into one transaction against a durable nonce, so two wallets can trade with no escrow and no pool. A .cook name works wherever Crumbs asks for a wallet (airdrop recipients, the swap counterparty), and wallets that set a primary name show it on the leaderboard, in holder tables and in the wallet button, read straight from the name service program. Crumb Clicker is an idle clicker where every click is a Cookie Chain transaction, signed by a browser session key after one wallet approval; each UTC day's totals settle on chain and split a fixed pool of CRUMB, the app's proof-of-play token, minted only through the emission program with a hard cap and supply-triggered halvings. Mint NFT releases a quick drop in one screen: one picture, as many numbered copies as you like (up to 1,000), sent to your wallet, to every holder of a token from a snapshot, or to a pasted list. The picture is resized to 1024px WebP in the browser and stored on Cookie Chain itself in a byte-blob program, next to one metadata JSON per piece; a keyless read route serves those bytes to wallets, Cookiescan and Baked Bazaar. One wallet approval funds a session key with the exact rent and fees; it mints the collection NFT and every piece as a standard Metaplex NFT (master edition, verified collection, your royalty), hands every update authority to you and refunds the rest. Three Anchor programs deployed on Cookie Chain mainnet run the game, the mint and the storage: crumb_clicker 7aPZt6exe1H2A1fnSqV2kV2ZHpgQWtKe4LYEXv1x3Lqi, crumb_emission C8NRjLU9ajS5okBSbDhMBXsF2naVGm82y6g3hdefTQcY and crumb_store A9bmhLfaJRUQKQvRktrtztg1w3hoRjp5UVc5TUhcaq2J. No server holds state: reads come from rpc.cookiescan.io and api.cookiescan.io, NFT files are read straight from the chain, and every write is a transaction signed in the user's browser, by the Nightly wallet or by a session key it funded.",
     "category": "Tooling",
     "tags": [
       "Tooling",
+      "NFT",
       "Airdrop",
       "Snapshot",
       "Swap",
@@ -68,7 +69,8 @@
         "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/04-cleanup.png",
         "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/05-swap.png",
         "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/06-clicker.png",
-        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/07-crumb.png"
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/07-crumb.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/08-mint.png"
       ]
     },
     "team": [
@@ -83,8 +85,8 @@
   {
     "id": "sprinkle",
     "title": "Sprinkle",
-    "shortDescription": "Payment links, tip jars and a receipts dashboard on Cookie Chain. No backend, wallet-native, .cook names supported.",
-    "description": "Sprinkle lets anyone get paid on Cookie Chain with a link or QR code. The creator picks a recipient (an address or a .cook name), COOK or any registry token, an optional amount, a label and a message; the whole request is encoded in the URL so links never expire and nothing is stored anywhere. The payer opens the link, connects Nightly, sees their balance and USD estimate, and pays: a SystemProgram transfer for COOK or an idempotent ATA create plus transferChecked for SPL and Token-2022, always with a sprinkle:v1:<label> memo. The transaction is simulated first for readable errors, signed by the wallet, broadcast by the page to rpc.cookiescan.io and confirmed with live stage updates and an explorer link. The Received tab reads any address's history straight from the chain, extracts incoming transfers, groups Sprinkle payments by label, totals them in USD via Cookiescan prices and charts them per day. .cook names are resolved on-chain at payment time through the cookie_domains program, so a payment follows the name; names sitting in the marketplace escrow are refused rather than paid into a program account.",
+    "shortDescription": "Payment links, tip jars, pay-with-any-token swaps and self-verifying receipts on Cookie Chain. No backend, wallet-native, .cook names supported.",
+    "description": "Sprinkle lets anyone get paid on Cookie Chain with a link or QR code. The creator picks a recipient (an address or a .cook name), COOK or any registry token, an optional amount, a label and a message; the whole request is encoded in the URL so links never expire and nothing is stored anywhere. The payer opens the link, connects Nightly, sees their balance and USD estimate, and pays: a SystemProgram transfer for COOK or an idempotent ATA create plus transferChecked for SPL and Token-2022, always with a sprinkle:v1:<label> memo. The transaction is simulated first for readable errors, signed by the wallet, broadcast by the page to rpc.cookiescan.io and confirmed with live stage updates and an explorer link. The Received tab reads any address's history straight from the chain, extracts incoming transfers, groups Sprinkle payments by label, totals them in USD via Cookiescan prices and charts them per day. .cook names are resolved on-chain at payment time through the cookie_domains program, so a payment follows the name; names sitting in the marketplace escrow are refused rather than paid into a program account. If the payer lacks the requested token, the pay page swaps into it first through the Candy Shop aggregator (Cookieswap / Cookiebox liquidity): it finds the smallest input whose guaranteed output covers the shortfall, shows route, fee and price impact, and runs the swap and the payment as two wallet prompts. Every successful payment yields a shareable receipt at /tx/<signature> that re-reads the transaction from the RPC on open (amount, token, from and to with .cook names, label, slot, fee), so it cannot be edited after the fact.",
     "category": "Tooling",
     "tags": [
       "Payments",
@@ -92,7 +94,10 @@
       "Creator tools",
       "Tooling",
       ".cook names",
-      "Public goods"
+      "Public goods",
+      "Swap",
+      "Receipts",
+      "Cookieswap"
     ],
     "links": {
       "website": "https://sprinkle-ten.vercel.app",
@@ -100,7 +105,7 @@
       "github": "https://github.com/ys317/sprinkle",
       "x": "https://x.com/VongLamqfeg/status/2098370526393913435",
       "docs": "https://github.com/ys317/sprinkle/blob/main/README.md",
-      "video": null
+      "video": "https://raw.githubusercontent.com/ys317/sprinkle/main/docs/demo.gif"
     },
     "media": {
       "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/sprinkle.png",
@@ -159,6 +164,95 @@
         "role": "Developer",
         "x": "https://x.com/TheBenMeadows",
         "github": "https://github.com/TheBenMeadows"
+      }
+    ]
+  },
+  {
+    "id": "cookiebot",
+    "title": "CookieBot",
+    "shortDescription": "Cookie Chain in Telegram: live wallet alerts, price alerts and COOK tips that confirm themselves in the chat, plus a Nightly app to send and swap.",
+    "description": "CookieBot brings Cookie Chain into Telegram, where its community already talks. The bot watches any wallet or .cook name over the Cookie Chain RPC WebSocket (logsSubscribe, backed by polling) and posts every transfer, swap or failed transaction within seconds, decoded into COOK and SPL/Token-2022 balance changes with USD values from the Cookiescan API and the counterparty. In a group, /tip as a reply or by @username posts a tip card with a Pay with Nightly button; the payment carries a unique SPL Memo, the bot matches it on chain and edits the same message to paid with the Cookiescan receipt, and a tip link opened twice refuses to pay again. The companion web app does everything that needs a signature in Nightly: it switches the wallet to Cookie Chain and verifies the network before every signature, sends COOK to an address or a .cook name resolved from the CookOven cookie_domains program, swaps through the Cookiebox aggregator with a live quote, and prints a ticket for each transaction through build, sign, broadcast and confirm. One-time price alerts are set in two taps, market and portfolio cards refresh in place, and inline mode shares price cards in any chat. Tested end to end on mainnet: bridge in, send with memo, tip paid from Telegram, swap 1,000 COOK to 759 bCOOK.",
+    "category": "Social",
+    "tags": [
+      "Telegram",
+      "Bot",
+      "Alerts",
+      "Tips",
+      "Payments",
+      "Swap",
+      "Nightly",
+      "Wallet"
+    ],
+    "links": {
+      "website": "https://ushure.github.io/cookiebot/",
+      "demo": "https://t.me/cookiechain_bot",
+      "github": "https://github.com/uShure/cookiebot",
+      "x": "https://x.com/moguchever/status/2099146003085701317",
+      "docs": "https://github.com/uShure/cookiebot/blob/main/README.md",
+      "video": "https://x.com/moguchever/status/2099146003085701317"
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiebot.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/01-hero.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/02-send-ticket.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/03-swap-quote.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/04-shelf.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/05-web-tip-from-telegram.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/06-bot-menu.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/07-bot-price-market.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/08-bot-alert-presets.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/09-bot-alert-set.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/10-bot-tip-pending.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiebot/11-bot-tip-paid-swapped.jpg"
+      ]
+    },
+    "team": [
+      {
+        "name": "Andrei M",
+        "role": "Developer",
+        "x": "https://x.com/moguchever",
+        "github": "https://github.com/uShure"
+      }
+    ]
+  },
+  {
+    "id": "cookie-payouts",
+    "title": "Cookie Payouts",
+    "shortDescription": "Pay an airdrop or a contributor list in one approval, and share a receipt that re-reads itself from Cookie Chain instead of asking anyone to trust a screenshot.",
+    "description": "Cookie Payouts sends native COOK to a list of addresses in as few transactions as the packet limit allows, signed in a single approval, and produces a receipt link that carries only transaction signatures. Whoever opens that link re-reads those transactions from rpc.cookiescan.io in their own browser, so there is no server holding a copy of the numbers the publisher could have edited. The receipt is allowed to come back negative: a signature that is not on chain reads \"not found\", and a transaction that confirmed without moving any COOK says so in as many words. On Cookie Chain specifically, the app checks getGenesisHash on load so it cannot be pointed at the wrong network, and it asks the wallet only to sign while submitting the signed bytes to Cookie Chain itself \u2014 wallets that broadcast through their own RPC would send the transaction to Solana, where it never lands.",
+    "category": "Tooling",
+    "tags": [
+      "Payments",
+      "Payouts",
+      "Tooling",
+      "Verification",
+      "Nightly"
+    ],
+    "links": {
+      "website": "https://eazyhood.github.io/cookie-payouts/",
+      "demo": null,
+      "github": "https://github.com/EazyHood/cookie-payouts",
+      "x": null,
+      "docs": "https://github.com/EazyHood/cookie-payouts/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-payouts.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-payouts/01-attestation.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-payouts/02-payout.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-payouts/03-receipt-can-say-no.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "EazyHood",
+        "role": "Developer",
+        "x": "https://x.com/del_mejia95726",
+        "github": "https://github.com/EazyHood"
       }
     ]
   },
