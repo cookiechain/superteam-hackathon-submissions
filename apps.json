@@ -294,5 +294,46 @@
         "github": "https://github.com/waniyaro"
       }
     ]
+  },
+  {
+    "id": "arisan",
+    "title": "Arisan",
+    "shortDescription": "Rotating savings circles on Cookie Chain, protected by a full reserve instead of trust.",
+    "description": "An arisan is a rotating savings circle: a group agrees an amount and a period, every round each member pays that in, and one member who has not had a turn yet takes the whole pot. It is how tens of millions of Indonesian households actually save, and it works offline because everyone in the group knows each other. Online it collapses two ways, and this program is built around both. Somebody stops paying once they have already had their turn, so every member posts collateral when they join and a missed round is taken out of that collateral and put into the pot, which means the round still pays out in full and the people who did pay are made whole by the person who did not; drop below one contribution of collateral and you are sidelined from taking a turn until you put it back. The organiser disappears with the money, so nobody holds it: the pot is a program account with no key, contributions can only leave in the direction of the drawn member, and every group parameter is frozen at creation so the rules cannot change after money is committed. The draw commits to the hash of a block three slots in the future, so at the moment it is called nobody including the organiser can know who wins, which matters because the organiser is a participant. Running the draw and charging a missed round to a defaulter's collateral are both permissionless, so an absent organiser cannot stall the circle. Eligibility is checked when the pot is collected rather than when it is drawn: the claimer must hold the drawn seat, not have had a turn, be active, and have settled the round. The books are public, so every member can see who paid, who missed and how often, who has already had a turn, and how much collateral each person still holds. Every transaction fee is sponsored, so a member with an empty wallet can join, pay a round and collect, while the contribution and the collateral always come from their own wallet.",
+    "category": "DeFi",
+    "tags": [
+      "DeFi",
+      "Savings",
+      "ROSCA",
+      "Arisan",
+      "Gasless",
+      "Anchor"
+    ],
+    "links": {
+      "website": "https://arisan-cook.vercel.app",
+      "demo": "https://arisan-cook.vercel.app",
+      "github": "https://github.com/ranimth0707/arisan",
+      "x": "https://x.com/ranimth07",
+      "docs": "https://github.com/ranimth0707/arisan/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/arisan.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/arisan/01-live-activity.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/arisan/02-join-a-room.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/arisan/03-get-demo-cook.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/arisan/04-how-a-round-works.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Rani",
+        "role": "Developer",
+        "x": "https://x.com/ranimth07",
+        "github": "https://github.com/ranimth0707"
+      }
+    ]
   }
 ]
