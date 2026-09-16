@@ -422,5 +422,43 @@
         "github": "https://github.com/ajibolahuds"
       }
     ]
+  },
+  {
+    "id": "last-batch",
+    "title": "Last Batch",
+    "shortDescription": "Bake last, take the pot: an on-chain oven game that funds the Cookie Jar.",
+    "description": "Last Batch is a game that lives in a single Cookie Chain account. Every bake pays 10 COOK into a shared pot and resets a three-minute timer; when the timer runs out, the last baker takes 90% of the pot, 10% carries into the next round so it never starts empty, and 5% of every bake goes straight to the Cookie Jar community vault. Paying the winner is permissionless — anyone can call it, the program can only send the pot to the address it recorded as the last baker, and there is no admin instruction that moves the pot or changes the rules — and the app bundles settling and baking into one transaction. The page subscribes to the oven account over the Cookie Chain WebSocket, so the pot, countdown, live feed and past winners update with no indexer behind them. It works with Nightly and also with wallets that cannot add a custom RPC: the wallet only signs, and the app simulates, sends and confirms against rpc.cookiescan.io.",
+    "category": "Gaming",
+    "tags": [
+      "Gaming",
+      "Degen",
+      "Anchor",
+      "Cookie Jar",
+      "Nightly"
+    ],
+    "links": {
+      "website": "https://last-batch.vercel.app",
+      "demo": null,
+      "github": "https://github.com/rauppvj/last-batch",
+      "x": "https://x.com/therppx/status/2100057580949164281",
+      "docs": "https://github.com/rauppvj/last-batch/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/last-batch.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/last-batch/01-oven.jpg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/last-batch/02-rounds.jpg"
+      ]
+    },
+    "team": [
+      {
+        "name": "Vinicius Raupp",
+        "role": "Developer",
+        "x": "https://x.com/therppx",
+        "github": "https://github.com/rauppvj"
+      }
+    ]
   }
 ]
