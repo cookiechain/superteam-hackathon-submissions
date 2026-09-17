@@ -375,5 +375,46 @@
         "github": "https://github.com/ranimth0707"
       }
     ]
-  }
+  },
+  {
+  "id": "golden-cookie",
+  "title": "Golden Cookie",
+  "shortDescription": "An on-chain loot game with a self-sustaining vault and a live AI agent, built on Cookie Chain.",
+  "description": "Golden Cookie is a degen mini-game terminal built on Cookie Chain. Users click the golden cookie to spend COOK on a click, and each click has a chance to drop a Golden Cookie — a payout drawn from a program-owned vault. A slice of every click fee routes to a public-good treasury. An embedded AI agent powered by cookie-mcp handles on-chain queries and trades via natural language, currently on READ-ONLY mode but can be upgraded to sign transactions by providing a wallet private key in the environment variables. The game is built on a custom Anchor program deployed at 95wtTTBbyhrj46L8FuE3WnPhGbFfPmywYkyF9fqw6yYx, with a real SBPFv1 deploy to Cookie Chain costing roughly $0.05.",
+  "category": "Gaming",
+  "tags": [
+    "Gaming",
+    "AI",
+    "MCP",
+    "DeFi",
+    "Anchor",
+    "Cookie Chain"
+  ],
+  "links": {
+    "website": "https://golden-cookie.vercel.app/",
+    "demo": "https://youtu.be/jUt9BOIQlRw?si=_s_bfGMNm9G6suo3",
+    "github": "https://github.com/sabbCodes/GoldenCookie",
+    "x": "https://x.com/0lanrewajuAbbas",
+    "docs": "https://github.com/sabbCodes/GoldenCookie/blob/main/README.md",
+    "video": "https://youtu.be/jUt9BOIQlRw?si=_s_bfGMNm9G6suo3"
+  },
+  "media": {
+    "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/golden-cookie.png",
+    "banner": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/golden-cookie/01-click-golden-cookie.png",
+      "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/golden-cookie/02-cookie-mcp-agent.png",
+      "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/golden-cookie/03-golden-cookie-anchor-idl.png",
+      "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/golden-cookie/04-bridge-sol-cookie-chain.png"
+    ]
+  },
+  "team": [
+    {
+      "name": "Sabb",
+      "role": "Developer",
+      "x": "https://x.com/0lanrewajuAbbas",
+      "github": "https://github.com/sabbCodes"
+    }
+  ]
+}
 ]
