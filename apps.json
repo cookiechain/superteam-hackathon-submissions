@@ -375,5 +375,41 @@
         "github": "https://github.com/ranimth0707"
       }
     ]
+  },
+  {
+    "id": "cookiepulse",
+    "title": "CookiePulse",
+    "shortDescription": "A live Cookie Chain operations console with RPC telemetry and Nightly wallet connectivity.",
+    "description": "CookiePulse is a lightweight operations dashboard for Cookie Chain. It reads the live Cookie Chain RPC to show node health, slot, block height, epoch progress, TPS, genesis hash and circulating supply in one place. Builders can connect a Nightly wallet, inspect the connected address, request a proof signature where the wallet exposes that capability, and use the proof transaction flow with clear status feedback. During live testing the Nightly connection was verified; the connected wallet had no balance and did not expose standard message signing, so no proof transaction was broadcast.",
+    "category": "Tooling",
+    "tags": [
+      "Dashboard",
+      "RPC",
+      "Telemetry",
+      "Nightly",
+      "Wallet",
+      "Tooling"
+    ],
+    "links": {
+      "website": "https://cookiepulse.ydo63564844.chatgpt.site",
+      "demo": null,
+      "github": "https://github.com/dawn292/cookiepulse",
+      "x": "https://x.com/yodawo58761949/status/2100305441406456194",
+      "docs": "https://github.com/dawn292/cookiepulse/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiepulse.png",
+      "banner": null,
+      "screenshots": []
+    },
+    "team": [
+      {
+        "name": "Dawon Yoon",
+        "role": "Developer",
+        "x": "https://x.com/yodawo58761949",
+        "github": "https://github.com/dawn292"
+      }
+    ]
   }
 ]
