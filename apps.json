@@ -375,5 +375,40 @@
         "github": "https://github.com/ranimth0707"
       }
     ]
+  },
+  {
+    "id": "cookie-guard",
+    "title": "Cookie Guard",
+    "shortDescription": "Scans a Cookie Chain token, scores the risk from live on-chain evidence, and refuses to route a swap when the verdict fails.",
+    "description": "Cookie Guard is a safety gate for Cookie Chain trading. Paste a mint and it reads the token directory, the AMM market registry, the security endpoint, the holder list, and the mint account itself (the only source for Token-2022 extensions), then scores the token 0-100 with a grade A-F. Every finding carries the raw number it was decided from. The swap is the point: the gate runs inside the only two functions that can build a transaction, so a failing verdict cannot produce one. A passing token is quoted and built through Cookie Chain's own aggregator and signed in the user's wallet, and the verdict can be written to the chain as a Memo so the audit record is public.",
+    "category": "DeFi",
+    "tags": [
+      "DeFi",
+      "Security",
+      "Tooling",
+      "Risk",
+      "Wallet"
+    ],
+    "links": {
+      "website": "https://khalisanazwa.github.io/cookie-guard/",
+      "demo": "https://khalisanazwa.github.io/cookie-guard/",
+      "github": "https://github.com/khalisanazwa/cookie-guard",
+      "x": null,
+      "docs": "https://github.com/khalisanazwa/cookie-guard/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-guard.png",
+      "banner": null,
+      "screenshots": []
+    },
+    "team": [
+      {
+        "name": "Khalisa",
+        "role": "Developer",
+        "x": null,
+        "github": "https://github.com/khalisanazwa"
+      }
+    ]
   }
 ]
