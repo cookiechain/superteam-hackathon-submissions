@@ -501,5 +501,50 @@
         "github": "https://github.com/rauppvj"
       }
     ]
+  },
+  {
+    "id": "coorwa",
+    "title": "Coorwa",
+    "shortDescription": "Real-world assets for Cookie Chain: every token paired with a real stock, priced in it, charted in it, and paid out in it.",
+    "description": "Coorwa gives Cookie Chain tokens a real-world asset as their pair. Each token is paired with one of 16 tokenized stocks (NVDA, TSLA, AAPL, MSFT, GOOGL, AMZN, META, NFLX, AMD, PLTR, COIN, HOOD, MSTR, CRCL, SPY, QQQ): it is quoted in that stock, charted against it, and its holders are paid in it. On Cookie Chain, Coorwa is a launchpad and a trading terminal. You can launch a token on MomoSwap with a stock chosen at launch, or give any existing token with a pool its pair for $1. The terminal trades those tokens through Cookiebox and Candy Shop pools with a 1% fee, and every build is simulated and checked before the wallet signs. 62.5% of every fee goes to the token's holders and 37.5% to its creator; Coorwa keeps none of it. Once a day Coorwa takes the fees a token earned, bridges the COOK to Solana over Cookie Chain's Hyperlane warp route, buys the real xStock on Jupiter and sends it straight to each holder's wallet. Nothing to claim, and because Cookie Chain runs the Solana VM, the address that holds the token is the same one that receives the stock. Holders are weighed by random on-chain samples, not a snapshot you can time. It runs live on Cookie Chain mainnet with real funds, one Nightly wallet for both chains, and real payouts already delivered.",
+    "category": "DeFi",
+    "tags": [
+      "DeFi",
+      "RWA",
+      "Stocks",
+      "xStocks",
+      "Launchpad",
+      "Trading",
+      "Bridge",
+      "Hyperlane",
+      "Solana",
+      "Nightly"
+    ],
+    "links": {
+      "website": "https://coorwa.fun",
+      "demo": null,
+      "github": "https://github.com/Vicape7/coorwa",
+      "x": "https://x.com/xVicape/status/2101005624523866222",
+      "docs": "https://github.com/Vicape7/coorwa/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/coorwa.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/coorwa/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/coorwa/01-home.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/coorwa/02-terminal.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/coorwa/03-launch.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/coorwa/04-rewards.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Vicape",
+        "role": "Developer",
+        "x": "https://x.com/xVicape",
+        "github": "https://github.com/Vicape7"
+      }
+    ]
   }
 ]
