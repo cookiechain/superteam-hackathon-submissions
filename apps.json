@@ -501,5 +501,41 @@
         "github": "https://github.com/rauppvj"
       }
     ]
+  },
+    {
+    "id": "cookielens",
+    "title": "CookieLens",
+    "shortDescription": "Portfolio aggregation, social discovery, and market exploration for Cookie Chain: track any wallet, follow active traders, discover emerging tokens, send COOK, and swap COOK to any token.",
+    "description": "CookieLens turns raw Cookie Chain activity into structured, actionable social signals. Connect a wallet to see native COOK and every SPL token holding with USD value; send COOK with live Sign > Broadcast > Confirm status and CookieScan explorer links; and swap COOK to any token through the Cookiebox aggregator with simulation guards, slippage control and price-impact estimation. The discovery feed classifies on-chain events (significant wallet entries, community convergence, early token activity, large movements, token momentum, network activity), wallet profiles let you follow active traders, and per-token pages show price, market cap, supply, holder metrics and community context. Usernames are claimed with Ed25519 challenge signatures; an address tracker follows any Cookie Chain address without a wallet. A cron-driven indexer (GitHub Actions + Neon Postgres + Drizzle) parses slots into classified social events, so the feed runs with no server of its own.",
+    "category": "Social",
+    "tags": [
+      "Analytics",
+      "Social",
+      "Portfolio",
+      "Discovery",
+      "Swap",
+      "Tracking"
+    ],
+    "links": {
+      "website": "https://cookielens.vercel.app",
+      "demo": null,
+      "github": "https://github.com/stephen-gabriel/cookielens",
+      "x": "https://x.com/Defi_Onyx",
+      "docs": "https://github.com/stephen-gabriel/cookielens/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookielens.png",
+      "banner": null,
+      "screenshots": []
+    },
+    "team": [
+      {
+        "name": "Stephen Gabriel",
+        "role": "Developer",
+        "x": "https://x.com/Defi_Onyx",
+        "github": "https://github.com/stephen-gabriel"
+      }
+    ]
   }
 ]
