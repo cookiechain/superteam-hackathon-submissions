@@ -377,6 +377,45 @@
     ]
   },
   {
+    "id": "phi-ledger",
+    "title": "PHI LEDGER",
+    "shortDescription": "Golden-ratio ledger analytics cApp on Cookie Chain.",
+    "description": "PHI LEDGER is a golden-ratio ledger analytics cApp on Cookie Chain. It tracks 45 seals, 428 entries, and 29 ladders, with every entry rung-addressed by φ. It features wallet connection and on-chain seal anchoring through Cookie Chain's Memo program, turning the ledger itself into verifiable on-chain telemetry.",
+    "category": "Tooling",
+    "tags": [
+      "Analytics",
+      "Ledger",
+      "Golden Ratio",
+      "Tooling",
+      "On-chain"
+    ],
+    "links": {
+      "website": "https://tyofthestars11-lab.github.io/phi-ledger-cookie-chain/",
+      "demo": "https://tyofthestars11-lab.github.io/phi-ledger-cookie-chain/",
+      "github": "https://github.com/tyofthestars11-lab/phi-ledger-cookie-chain",
+      "x": "https://x.com/Tyofthestarz1",
+      "docs": null,
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/phi-ledger.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/phi-ledger/01-home.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/phi-ledger/02-seal.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/phi-ledger/03-mobile.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Tyree Jones",
+        "role": "Developer",
+        "x": "https://x.com/Tyofthestarz1",
+        "github": "https://github.com/tyofthestars11-lab"
+      }
+    ]
+  },
+  {
     "id": "golden-cookie",
     "title": "Golden Cookie",
     "shortDescription": "An on-chain loot game with a self-sustaining vault and a live AI agent, built on Cookie Chain.",
