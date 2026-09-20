@@ -565,7 +565,13 @@
     "media": {
       "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-chain-swap.png",
       "banner": null,
-      "screenshots": []
+            "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-chain-swap/01-dashboard.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-chain-swap/02-pantry-jar-heat.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-chain-swap/03-mobile-home.jpeg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-chain-swap/04-swap-confirmed.jpeg",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-chain-swap/05-transaction.jpeg"
+      ]
     },
     "team": [
       {
