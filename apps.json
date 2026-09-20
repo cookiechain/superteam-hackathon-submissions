@@ -546,5 +546,34 @@
         "github": "https://github.com/Vicape7"
       }
     ]
+  },
+    {
+    "id": "cookie-chain-swap",
+    "title": "Cookie Chain Swap",
+    "shortDescription": "Wallet-connected swap and activity dashboard for Cookie Chain.",
+    "description": "Cookie Chain Swap lets users connect Nightly, Phantom, Solflare or Trust Wallet, swap COOK and bCOOK through the Candy Shop aggregator (Cookiebox and Cookieswap liquidity), send and receive tokens, and track balances, USD values and recent transactions. Transactions are signed client-side in the user's wallet, with live status and explorer links. Runs on Cookie Chain mainnet.",
+    "category": "DeFi",
+    "tags": ["DeFi", "Swap", "Dashboard", "Wallet"],
+    "links": {
+      "website": "https://cookie-chain-app-stormd3v-projects.vercel.app",
+      "demo": null,
+      "github": "https://github.com/StormD3v/cookie-chain-app",
+      "x": "https://x.com/Storm_D3V/status/2101487688108933515",
+      "docs": "https://github.com/StormD3v/cookie-chain-app/blob/master/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-chain-swap.png",
+      "banner": null,
+      "screenshots": []
+    },
+    "team": [
+      {
+        "name": "Storm",
+        "role": "Developer",
+        "x": "https://x.com/Storm_D3V",
+        "github": "https://github.com/StormD3v"
+      }
+    ]
   }
 ]
