@@ -221,7 +221,7 @@
     "id": "cookie-payouts",
     "title": "Cookie Payouts",
     "shortDescription": "Pay an airdrop or a contributor list in one approval, and share a receipt that re-reads itself from Cookie Chain instead of asking anyone to trust a screenshot.",
-    "description": "Cookie Payouts sends native COOK to a list of addresses in as few transactions as the packet limit allows, signed in a single approval, and produces a receipt link that carries only transaction signatures. Whoever opens that link re-reads those transactions from rpc.cookiescan.io in their own browser, so there is no server holding a copy of the numbers the publisher could have edited. The receipt is allowed to come back negative: a signature that is not on chain reads \"not found\", and a transaction that confirmed without moving any COOK says so in as many words. On Cookie Chain specifically, the app checks getGenesisHash on load so it cannot be pointed at the wrong network, and it asks the wallet only to sign while submitting the signed bytes to Cookie Chain itself — wallets that broadcast through their own RPC would send the transaction to Solana, where it never lands.",
+    "description": "Cookie Payouts sends native COOK to a list of addresses in as few transactions as the packet limit allows, signed in a single approval, and produces a receipt link that carries only transaction signatures. Whoever opens that link re-reads those transactions from rpc.cookiescan.io in their own browser, so there is no server holding a copy of the numbers the publisher could have edited. The receipt is allowed to come back negative: a signature that is not on chain reads \"not found\", and a transaction that confirmed without moving any COOK says so in as many words. On Cookie Chain specifically, the app checks getGenesisHash on load so it cannot be pointed at the wrong network, and it asks the wallet only to sign while submitting the signed bytes to Cookie Chain itself \u2014 wallets that broadcast through their own RPC would send the transaction to Solana, where it never lands.",
     "category": "Tooling",
     "tags": [
       "Payments",
@@ -298,8 +298,8 @@
   {
     "id": "cookie-bakery",
     "title": "Cookie Bakery",
-    "shortDescription": "Launch a Token-2022 mint, then run giveaways your audience signs up for — with a draw anyone can verify.",
-    "description": "Cookie Bakery does three things on Cookie Chain. It bakes a Token-2022 mint — metadata, your token account and the entire initial supply in a single transaction, with optional transfer fee, mint-close authority and authority revoke. It airdrops that token from a pasted list or a CSV of up to 1,000 rows, validating every row, merging duplicates, then sending batch by batch with simulation, pause and per-batch retry. And for creators it removes the CSV altogether: open a giveaway against one of your tokens, share a link, and your audience registers itself from a phone — free, no COOK, no gas, no wallet signature. Winners are drawn by commit-reveal. The creator's browser commits to a secret seed and writes that commitment on Cookie Chain as a memo transaction; the entropy then comes from the blockhash of a slot about a minute in the future, so knowing the seed early buys nothing. Commitment and result are both memo transactions on chain, and anyone can recompute the whole draw in their own browser at /e/<slug>/verify — against a second implementation of the shuffle, written independently of the one that runs the draw. The wallet only ever signs: every transaction is sent through Cookie Chain's own RPC rather than the wallet's, because Cookie Chain is not Solana mainnet and a wallet-side send would land on the wrong chain.",
+    "shortDescription": "Launch a Token-2022 mint, then run giveaways your audience signs up for \u2014 with a draw anyone can verify.",
+    "description": "Cookie Bakery does three things on Cookie Chain. It bakes a Token-2022 mint \u2014 metadata, your token account and the entire initial supply in a single transaction, with optional transfer fee, mint-close authority and authority revoke. It airdrops that token from a pasted list or a CSV of up to 1,000 rows, validating every row, merging duplicates, then sending batch by batch with simulation, pause and per-batch retry. And for creators it removes the CSV altogether: open a giveaway against one of your tokens, share a link, and your audience registers itself from a phone \u2014 free, no COOK, no gas, no wallet signature. Winners are drawn by commit-reveal. The creator's browser commits to a secret seed and writes that commitment on Cookie Chain as a memo transaction; the entropy then comes from the blockhash of a slot about a minute in the future, so knowing the seed early buys nothing. Commitment and result are both memo transactions on chain, and anyone can recompute the whole draw in their own browser at /e/<slug>/verify \u2014 against a second implementation of the shuffle, written independently of the one that runs the draw. The wallet only ever signs: every transaction is sent through Cookie Chain's own RPC rather than the wallet's, because Cookie Chain is not Solana mainnet and a wallet-side send would land on the wrong chain.",
     "category": "Tooling",
     "tags": [
       "Token-2022",
@@ -380,7 +380,7 @@
     "id": "phi-ledger",
     "title": "PHI LEDGER",
     "shortDescription": "Golden-ratio ledger analytics cApp on Cookie Chain.",
-    "description": "PHI LEDGER is a golden-ratio ledger analytics cApp on Cookie Chain. It tracks 45 seals, 428 entries, and 29 ladders, with every entry rung-addressed by φ. It features wallet connection and on-chain seal anchoring through Cookie Chain's Memo program, turning the ledger itself into verifiable on-chain telemetry.",
+    "description": "PHI LEDGER is a golden-ratio ledger analytics cApp on Cookie Chain. It tracks 45 seals, 428 entries, and 29 ladders, with every entry rung-addressed by \u03c6. It features wallet connection and on-chain seal anchoring through Cookie Chain's Memo program, turning the ledger itself into verifiable on-chain telemetry.",
     "category": "Tooling",
     "tags": [
       "Analytics",
@@ -419,7 +419,7 @@
     "id": "golden-cookie",
     "title": "Golden Cookie",
     "shortDescription": "An on-chain loot game with a self-sustaining vault and a live AI agent, built on Cookie Chain.",
-    "description": "Golden Cookie is a degen mini-game terminal built on Cookie Chain. Users click the golden cookie to spend COOK on a click, and each click has a chance to drop a Golden Cookie — a payout drawn from a program-owned vault. A slice of every click fee routes to a public-good treasury. An embedded AI agent powered by cookie-mcp handles on-chain queries and trades via natural language, currently on READ-ONLY mode but can be upgraded to sign transactions by providing a wallet private key in the environment variables. The game is built on a custom Anchor program deployed at 95wtTTBbyhrj46L8FuE3WnPhGbFfPmywYkyF9fqw6yYx, with a real SBPFv1 deploy to Cookie Chain costing roughly $0.05.",
+    "description": "Golden Cookie is a degen mini-game terminal built on Cookie Chain. Users click the golden cookie to spend COOK on a click, and each click has a chance to drop a Golden Cookie \u2014 a payout drawn from a program-owned vault. A slice of every click fee routes to a public-good treasury. An embedded AI agent powered by cookie-mcp handles on-chain queries and trades via natural language, currently on READ-ONLY mode but can be upgraded to sign transactions by providing a wallet private key in the environment variables. The game is built on a custom Anchor program deployed at 95wtTTBbyhrj46L8FuE3WnPhGbFfPmywYkyF9fqw6yYx, with a real SBPFv1 deploy to Cookie Chain costing roughly $0.05.",
     "category": "Gaming",
     "tags": [
       "Gaming",
@@ -507,7 +507,7 @@
     "id": "last-batch",
     "title": "Last Batch",
     "shortDescription": "Bake last, take the pot: an on-chain oven game that funds the Cookie Jar.",
-    "description": "Last Batch is a game that lives in a single Cookie Chain account. Every bake pays 10 COOK into a shared pot and resets a three-minute timer; when the timer runs out, the last baker takes 90% of the pot, 10% carries into the next round so it never starts empty, and 5% of every bake goes straight to the Cookie Jar community vault. Paying the winner is permissionless — anyone can call it, the program can only send the pot to the address it recorded as the last baker, and there is no admin instruction that moves the pot or changes the rules — and the app bundles settling and baking into one transaction. The page subscribes to the oven account over the Cookie Chain WebSocket, so the pot, countdown, live feed and past winners update with no indexer behind them. It works with Nightly and also with wallets that cannot add a custom RPC: the wallet only signs, and the app simulates, sends and confirms against rpc.cookiescan.io.",
+    "description": "Last Batch is a game that lives in a single Cookie Chain account. Every bake pays 10 COOK into a shared pot and resets a three-minute timer; when the timer runs out, the last baker takes 90% of the pot, 10% carries into the next round so it never starts empty, and 5% of every bake goes straight to the Cookie Jar community vault. Paying the winner is permissionless \u2014 anyone can call it, the program can only send the pot to the address it recorded as the last baker, and there is no admin instruction that moves the pot or changes the rules \u2014 and the app bundles settling and baking into one transaction. The page subscribes to the oven account over the Cookie Chain WebSocket, so the pot, countdown, live feed and past winners update with no indexer behind them. It works with Nightly and also with wallets that cannot add a custom RPC: the wallet only signs, and the app simulates, sends and confirms against rpc.cookiescan.io.",
     "category": "Gaming",
     "tags": [
       "Gaming",
@@ -632,7 +632,7 @@
     "id": "cookie-jar",
     "title": "Cookie Jar",
     "shortDescription": "A community tip jar cApp: send COOK on-chain, crack open a fortune cookie (with rarity), climb the leaderboard, watch live analytics.",
-    "description": "Cookie Jar is a community tip jar for Cookie Chain. Connect a wallet (Nightly supported natively via the Wallet Standard), send COOK with an optional on-chain memo to a shared jar address, and get a fortune cookie message deterministically derived from your transaction signature the moment it confirms — each pull also rolls a rarity (common 80%, rare 17%, legendary 3%). A top-tippers leaderboard ranks cumulative volume per wallet. Everything is read straight from the chain with no backend or indexer: a live activity feed decodes every tip and memo via getSignaturesForAddress/getParsedTransaction, and an analytics dashboard tracks jar balance, tip count, cumulative volume, and unique tippers with a live chart. Built with React, TypeScript, Vite, @solana/web3.js, and @solana/wallet-adapter-react pointed directly at Cookie Chain's RPC and websocket endpoints.",
+    "description": "Cookie Jar is a community tip jar for Cookie Chain. Connect a wallet (Nightly supported natively via the Wallet Standard), send COOK with an optional on-chain memo to a shared jar address, and get a fortune cookie message deterministically derived from your transaction signature the moment it confirms \u2014 each pull also rolls a rarity (common 80%, rare 17%, legendary 3%). A top-tippers leaderboard ranks cumulative volume per wallet. Everything is read straight from the chain with no backend or indexer: a live activity feed decodes every tip and memo via getSignaturesForAddress/getParsedTransaction, and an analytics dashboard tracks jar balance, tip count, cumulative volume, and unique tippers with a live chart. Built with React, TypeScript, Vite, @solana/web3.js, and @solana/wallet-adapter-react pointed directly at Cookie Chain's RPC and websocket endpoints.",
     "category": "Social",
     "tags": [
       "Social",
@@ -663,6 +663,47 @@
         "role": "Developer",
         "x": "https://x.com/robert_behrmann",
         "github": "https://github.com/Robertbehrmannjr"
+      }
+    ]
+  },
+  {
+    "id": "cookieguard",
+    "title": "CookieGuard",
+    "shortDescription": "Audit any Cookie Chain token for rug risk from live on-chain data \u2014 and publish the verdict back to the chain.",
+    "description": "CookieGuard is a token-safety scanner for Cookie Chain. Paste any mint and it audits it against the chain itself: SPL mint authority, freeze authority, every funded holder account, and true liquidity from both live DEX programs \u2014 it reads the pool-state accounts of CookieDEX and Cookieswap BAMM, then resolves each pool's vault token accounts to get real reserves instead of trusting an off-chain number. It scores 0-100 and returns SAFE/CAUTION/DANGER with per-check reasoning, flagging insider concentration with pool vaults excluded so a healthy pool is never mistaken for a rug. Users can then publish the verdict to Cookie Chain as a signed Memo transaction and read their attestations back off the chain to build an audit ledger. It also ships a chain-wide census: one getProgramAccounts(dataSize:82) call enumerates every SPL mint on the network (~6,500) and reports authority safety, supply buckets and network health. No backend, no indexer, no API keys \u2014 the browser talks straight to rpc.cookiescan.io.",
+    "category": "Tooling",
+    "tags": [
+      "Security",
+      "Tooling",
+      "Analytics",
+      "DeFi",
+      "Rug Check"
+    ],
+    "links": {
+      "website": "https://cookieguard.surge.sh/",
+      "demo": "https://cookieguard.surge.sh/",
+      "github": "https://github.com/pavledujkic/cookieguard",
+      "x": null,
+      "docs": "https://github.com/pavledujkic/cookieguard/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookieguard.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookieguard/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookieguard/01-audit-top.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookieguard/02-audit-report.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookieguard/03-liquidity.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookieguard/04-chain-census.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookieguard/05-onchain-ledger.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "PlainMend Studio",
+        "role": "Developer",
+        "x": null,
+        "github": "https://github.com/pavledujkic"
       }
     ]
   }
