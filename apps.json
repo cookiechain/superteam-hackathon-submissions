@@ -666,13 +666,18 @@
       }
     ]
   },
-    {
+  {
     "id": "cookie-chain-swap",
     "title": "Cookie Chain Swap",
     "shortDescription": "Wallet-connected swap and activity dashboard for Cookie Chain.",
     "description": "Cookie Chain Swap lets users connect Nightly, Phantom, Solflare or Trust Wallet, swap COOK and bCOOK through the Candy Shop aggregator (Cookiebox and Cookieswap liquidity), send and receive tokens, and track balances, USD values and recent transactions. Transactions are signed client-side in the user's wallet, with live status and explorer links. Runs on Cookie Chain mainnet.",
     "category": "DeFi",
-    "tags": ["DeFi", "Swap", "Dashboard", "Wallet"],
+    "tags": [
+      "DeFi",
+      "Swap",
+      "Dashboard",
+      "Wallet"
+    ],
     "links": {
       "website": "https://cookie-chain-app-stormd3v-projects.vercel.app",
       "demo": null,
@@ -698,6 +703,46 @@
         "role": "Developer",
         "x": "https://x.com/Storm_D3V",
         "github": "https://github.com/StormD3v"
+      }
+    ]
+  },
+  {
+    "id": "cookie-board",
+    "title": "Cookie Board",
+    "shortDescription": "Dashboard and on-chain memo stamp for Cookie Chain.",
+    "description": "Cookie Board reads Cookie Chain's public index and writes back to the chain. The read half needs no COOK at all: live network stats including real non-vote TPS, all 169 liquidity pools across CookieSwap, CookieBox and Meteora ranked by USD liquidity with a venue filter, and analytics over the 6,545 indexed tokens with indexed search plus a full-directory load. The write half stamps a Memo instruction into a real Cookie Chain transaction — build, sign, broadcast, confirm — the cheapest honest proof that a wallet executed something on this chain. The wallet layer speaks Solana Wallet Standard, with explicit handling for the two things Nightly does differently: it injects itself after the page has loaded, and it publishes its signing features on the wallet rather than on the account.",
+    "category": "Tooling",
+    "tags": [
+      "Dashboard",
+      "Analytics",
+      "Tooling",
+      "Explorer",
+      "DeFi"
+    ],
+    "links": {
+      "website": "https://cookie-board-4fv.pages.dev/",
+      "demo": null,
+      "github": "https://github.com/kaminariouji/cookie-board",
+      "x": "https://x.com/kaminariouji",
+      "docs": "https://github.com/kaminariouji/cookie-board/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-board.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-board/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-board/01-network.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-board/02-stamp.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-board/03-markets.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-board/04-tokens.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "kaminariouji",
+        "role": "Developer",
+        "x": "https://x.com/kaminariouji",
+        "github": "https://github.com/kaminariouji"
       }
     ]
   }
