@@ -746,5 +746,48 @@
         "github": "https://github.com/kaminariouji"
       }
     ]
+  },
+  {
+    "id": "cookiepulse",
+    "title": "CookiePulse",
+    "shortDescription": "Autonomous AI Agent Mindshare Rebalancer, telemetry terminal, and SVM transaction engine on Cookie Chain.",
+    "description": "CookiePulse is a high-speed SVM decentralized application (cApp) and Dialect Actions v2 Blink built specifically for Cookie Chain. It combines sub-second live RPC telemetry, Nightly wallet integration, native COOK transfers, on-chain SPL memo notarization, real-time Cookie.fun AI Mindshare analytics, and a Cookiebox Vault staking simulator. Built with TypeScript, React 19, Tailwind CSS, Bun 1.4, and verified with 18 automated formal invariant tests.",
+    "category": "DeFi",
+    "tags": [
+      "AI",
+      "DeFi",
+      "Blinks",
+      "Analytics",
+      "Telemetry",
+      "Nightly",
+      "SVM"
+    ],
+    "links": {
+      "website": "https://vandemoosdijkstanley-bot.github.io/cookie-chain-capp/",
+      "demo": "https://vandemoosdijkstanley-bot.github.io/cookie-chain-capp/",
+      "github": "https://github.com/vandemoosdijkstanley-bot/cookie-chain-capp",
+      "x": "https://x.com/de33102/status/2102345183379505417",
+      "docs": "https://github.com/vandemoosdijkstanley-bot/cookie-chain-capp/blob/main/README.md",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiepulse.png",
+      "banner": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepulse/01-rebalance-terminal.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepulse/02-ai-mindshare-leaderboard.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepulse/03-cookiebox-vault-staking.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepulse/04-cook-transfer-engine.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Stanley",
+        "role": "Full-Stack & SVM Engineer",
+        "x": "https://x.com/de33102",
+        "github": "https://github.com/vandemoosdijkstanley-bot"
+      }
+    ]
   }
 ]
+
