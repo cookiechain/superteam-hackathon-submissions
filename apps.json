@@ -746,5 +746,46 @@
         "github": "https://github.com/kaminariouji"
       }
     ]
+  },
+  {
+    "id": "crumb-wars",
+    "title": "CRUMB WARS",
+    "shortDescription": "A collaborative on-chain cookie canvas where every crumb you bake is a real Cookie Chain transaction.",
+    "description": "CRUMB WARS is a collaborative, fully on-chain canvas on Cookie Chain. A shared 32x32 cookie is rebuilt entirely from chain history: every tile a wallet frosts is a single signed Memo transaction (CW1|owner|x|y|colourIndex), and optional crumb donations go to the community Cookie Jar vault. There is no custom program, no database and no backend - the app re-indexes Cookie Chain memo transactions, replays them in slot order to derive the live board, and ships a replay timeline, leaderboards, bakers telemetry, hover attribution with explorer links, and PNG export. Built with Vite, React and TypeScript on @solana/web3.js; connects Nightly via Wallet Standard, with Phantom and Solflare as fallbacks.",
+    "category": "Gaming",
+    "tags": [
+      "Gaming",
+      "Social",
+      "On-chain",
+      "Canvas",
+      "Memo Transactions",
+      "Art",
+      "Wallet",
+      "Cookie Chain"
+    ],
+    "links": {
+      "website": "https://mitsukoharada.com/cookie/",
+      "demo": "https://mitsukoharada.com/cookie/",
+      "github": "https://github.com/aleczandah/crumb-wars",
+      "x": "https://x.com/mitsuko_harada",
+      "docs": "https://github.com/aleczandah/crumb-wars#readme",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/crumb-wars.svg",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumb-wars/banner.jpg",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumb-wars/01-desktop.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumb-wars/02-mobile.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Mitsuko Harada",
+        "role": "Developer",
+        "x": "https://x.com/mitsuko_harada",
+        "github": "https://github.com/aleczandah"
+      }
+    ]
   }
 ]
