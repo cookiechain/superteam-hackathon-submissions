@@ -71,7 +71,7 @@
         "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/06-clicker.png",
         "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/07-crumb.png",
         "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/08-mint.png",
-      "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/09-nft-snapshot.png"
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/crumbs/09-nft-snapshot.png"
       ]
     },
     "team": [
@@ -786,6 +786,41 @@
         "role": "Developer",
         "x": "https://x.com/mitsuko_harada",
         "github": "https://github.com/aleczandah"
+      }
+    ]
+  },
+  {
+    "id": "cookie-bounties",
+    "title": "Cookie Bounties",
+    "shortDescription": "Fund bounties up front in escrow; pay contributors on-chain when the work is approved.",
+    "description": "Cookie Bounties is a community bounty board where the reward is locked in a smart-contract escrow the moment a task is posted. A creator funds a bounty and sets a deadline in a single transaction; contributors submit their work; and when the creator approves, the on-chain program releases the COOK to the winning contributor in the same transaction — it can never be paid twice. If the deadline passes with no approved work, the escrow refunds to the creator. Fully non-custodial: Nightly signs everything and no backend ever holds funds, with a Neon-indexed marketplace, live countdowns, activity feed and leaderboard all derived from verified on-chain state. Anchor escrow program on Cookie Chain: 5Pb9fVyi7t9b5wxDb6tJSNyZUbcuw1uqqacnCYUGq97j.",
+    "category": "DeFi",
+    "tags": [
+      "bounties",
+      "escrow",
+      "payments",
+      "community",
+      "nightly",
+      "anchor"
+    ],
+    "links": {
+      "website": "https://cookiebounties.vercel.app",
+      "github": "https://github.com/nofazechris/CookieBounties"
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookie-bounties.svg",
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-bounties/home.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-bounties/bounties.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-bounties/bounty.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookie-bounties/dashboard.png"
+      ]
+    },
+    "team": [
+      {
+        "name": "Chris",
+        "role": "Builder",
+        "github": "https://github.com/nofazechris"
       }
     ]
   }
