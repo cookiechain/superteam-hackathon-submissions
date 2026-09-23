@@ -746,5 +746,43 @@
         "github": "https://github.com/kaminariouji"
       }
     ]
+  },
+  {
+    "id": "bake",
+    "title": "bake",
+    "shortDescription": "bake builds, deploys, verifies and rolls back Anchor programs on Cookie Chain, and records every deploy in an on-chain Recipe Book so history is public and cheap to keep.",
+    "description": "bake does three jobs on Cookie Chain. It ships Anchor programs the way builders already live in a terminal: bake deploy runs the pinned build (anchor build --arch v0 --tools-version v1.57), deploys through Cookie's RPC (https://rpc.cookiescan.io), and registers the result in a permanent on-chain Recipe Book — commit, build hash, deployer, timestamp and program id — so deploy history is not a private log file. It treats deploys as reversible when the chain makes that affordable: bake rollback and bake prove re-check bytecode and history against what the Recipe Book and the cluster actually hold, instead of \"redeploy and hope.\" And it extends the same surface past a single human at the keyboard: bake audit can gate deploys on high-severity findings, bake mcp exposes tools to agents under a default read-only policy, bake session gives ephemeral local workspaces, and bake agent init scaffolds a project already wired to bake (and optionally cookie-mcp). The companion dashboard at bakeacookie.vercel.app is read-mostly: it does not become a second deploy tool; it visualizes Recipe Book history by program or wallet and hands you copy-paste bake commands to run locally. The Recipe Book program is live on Cookie Chain mainnet as an executable, upgradeable BPF program (56Vj61zFW4hHV6wdjnisrHtVwWDqyjixjpBgnoRJvzxL). Install is npm install -g bakeacookie; the wallet and key material stay on the builder's machine — remote or local build only produces artifacts; signing and broadcast stay non-custodial through standard Solana/Cookie RPC paths. Built for a chain where program deploys cost cents and iteration should feel like git, not a ceremony.",
+    "category": "Tooling",
+    "tags": [
+      "CLI",
+      "Tooling",
+      "Deploy",
+      "Anchor",
+      "Developer Experience",
+      "Recipe Book",
+      "MCP",
+      "Dashboard"
+    ],
+    "links": {
+      "website": "https://bakeacookie.vercel.app",
+      "demo": "https://bakeacookie.vercel.app",
+      "github": "https://github.com/DiverseXL/bake",
+      "x": "https://x.com/theyclonedsam/status/2099969645138588150",
+      "docs": "https://bakeacookie.vercel.app/docs/get-started/welcome",
+      "video": null
+    },
+    "media": {
+      "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/bake.png",
+      "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/bake/banner.jpg",
+      "screenshots": []
+    },
+    "team": [
+      {
+        "name": "Samuel Akinjo",
+        "role": "Developer",
+        "x": "https://x.com/theyclonedsam",
+        "github": "https://github.com/DiverseXL"
+      }
+    ]
   }
 ]
