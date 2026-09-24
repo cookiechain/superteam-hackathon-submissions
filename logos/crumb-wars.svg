@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="dough" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#eec487"/>
+      <stop offset="55%" stop-color="#d7a25a"/>
+      <stop offset="100%" stop-color="#ab7430"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="33" r="28" fill="#000" opacity="0.28"/>
+  <circle cx="32" cy="31" r="28" fill="url(#dough)"/>
+  <circle cx="32" cy="31" r="28" fill="none" stroke="#5a3a16" stroke-opacity="0.5" stroke-width="2"/>
+  <g fill="#3a2113">
+    <ellipse cx="22" cy="20" rx="5" ry="4" transform="rotate(-18 22 20)"/>
+    <ellipse cx="41" cy="18" rx="4.2" ry="3.4" transform="rotate(14 41 18)"/>
+    <ellipse cx="45" cy="35" rx="5.4" ry="4.2" transform="rotate(8 45 35)"/>
+    <ellipse cx="26" cy="38" rx="4.6" ry="3.8" transform="rotate(-24 26 38)"/>
+    <ellipse cx="34" cy="27" rx="3.8" ry="3.1" transform="rotate(20 34 27)"/>
+    <ellipse cx="18" cy="31" rx="3.2" ry="2.6" transform="rotate(6 18 31)"/>
+    <ellipse cx="37" cy="45" rx="3.6" ry="2.9" transform="rotate(-10 37 45)"/>
+  </g>
+  <g fill="#fff" opacity="0.25">
+    <ellipse cx="20" cy="18" rx="1.6" ry="1.3" transform="rotate(-18 20 18)"/>
+    <ellipse cx="43" cy="33" rx="1.7" ry="1.4" transform="rotate(8 43 33)"/>
+  </g>
+</svg>
