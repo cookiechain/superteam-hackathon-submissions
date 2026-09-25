@@ -826,5 +826,40 @@
         "github": "https://github.com/simongonzalezdc"
       }
     ]
-  }
+  },
+
+
+{
+  "id": "cookiepredict",
+  "title": "CookiePredict",
+    "shortDescription": "On-chain prediction markets with streaks, head-to-head challenges, and a live social feed.",
+  "description": "CookiePredict lets users connect Nightly, trade YES/NO prediction markets on Cookie Chain, build win streaks with multipliers, challenge others head-to-head, and follow a live activity feed. All value movement and settlement happen on-chain.",
+  "category": "DeFi",
+  "tags": ["Prediction Markets", "DeFi", "Social", "Nightly", "challange"],
+  "links": {
+    "website": "https://cookiepredict.vercel.app",
+    "demo": "https://cookiepredict.vercel.app",
+    "github": "https://github.com/dihesi8/cookiePredict",
+    "x": "https://x.com/_Dihesi/status/2102393713867571539",
+    "docs":  "https://docs.google.com/document/d/1krLuRB21iFAetNUTfMvwLsEgKf8F7ApS/edit?usp=drivesdk&ouid=105614852257678025270&rtpof=true&sd=true"
+  },
+  "media": {
+    "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/cookiepredict.png",
+    "banner": null,
+    "screenshots": [
+"https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepredict/home.png",
+"https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepredict/market1.png",
+"https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepredict/profile1.png",
+"https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepredict/portfolio1.png",
+"https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/cookiepredict/achievement.png"
+]
+  },
+  "team": [
+    { "name": "Divine",
+      "role": "Developer",
+       "X": "https://x.com/_dihesi",
+       "github": "https://github.com/dihesi8" }
+  ]
+}
+
 ]
