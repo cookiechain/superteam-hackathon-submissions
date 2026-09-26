@@ -769,12 +769,17 @@
       "github": "https://github.com/DiverseXL/bake",
       "x": "https://x.com/theyclonedsam/status/2099969645138588150",
       "docs": "https://bakeacookie.vercel.app/docs/get-started/welcome",
-      "video": null
+      "video": "https://vimeo.com/1219823839"
     },
     "media": {
       "logo": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/logos/bake.png",
       "banner": "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/bake/banner.jpg",
-      "screenshots": []
+      "screenshots": [
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/bake/01-landing.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/bake/02-program.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/bake/03-cli.png",
+        "https://raw.githubusercontent.com/cookiechain/superteam-hackathon-submissions/main/screenshots/bake/04-docs.png"
+      ]
     },
     "team": [
       {
